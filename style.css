@@ -86,7 +86,7 @@ header {
 }
 
 .navigation a:hover{
-    color: #26a34b;
+    color: #264ba3;
 }
 
 section {
@@ -118,7 +118,7 @@ h1, h2 {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #49E879;
+    color: #4979e8;
     font-size: 3em;
     font-weight: 600;
 }
@@ -134,7 +134,7 @@ h1, h2 {
 
 .docs-btn {
     color: black;
-    background-color: #54cf79c1;
+    background-color: #5479cfc1;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -173,19 +173,19 @@ h1, h2 {
 
 @keyframes colorRotate {
     from {
-        background-color: #a8ff66;
+        background-color: #a866ff;
     }
     10% {
-        background-color: #92ff33;
+        background-color: #9233ff;
     }
     50% {
-        background-color: #00ff00;
+        background-color: #0000ff;
     }
     75% {
-        background-color: #92ff33;
+        background-color: #9233ff;
     }
     100% {
-        background-color: #a8ff66;
+        background-color: #a866ff;
     }
 }
 
@@ -214,7 +214,7 @@ h1, h2 {
 .title {
     display: flex;
     justify-content: center;
-    color: #26a34b;
+    color: #264ba3;
     font-size: 2.2em;
     font-weight: 800;
 }
@@ -319,7 +319,7 @@ h1, h2 {
 }
 
 .info h3{
-    color: #49E879;
+    color: #4979e8;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
@@ -406,11 +406,11 @@ h1, h2 {
 
 .more-details {
     text-decoration: none;
-    color: #49E879e3;
+    color: #4979e8e3;
 }
 
 .more-details:hover {
-    color: #49E879;
+    color: #4979e8;
 }
 
 .contact .icon{
@@ -520,7 +520,7 @@ header a.logo h3 {
     margin-left: 100px;
     display: inline-block;
     margin-top: 10px;
-    color: #19c34c;
+    color: #194cc3;
     font-size: 1em;
     font-weight: 600;
     border: 1px;
@@ -591,7 +591,8 @@ header a.logo h3 {
 
 /* Scroll shitter */
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 4px;
+	transition: 0.7s ease;
 }
 
 ::-webkit-scrollbar-track {
@@ -600,9 +601,10 @@ header a.logo h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #49E879;
+    background: #4979e8;
+	transition: 0.7s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #128d37;
+    background: #12378d;
 }
